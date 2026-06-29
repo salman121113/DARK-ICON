@@ -1,0 +1,22 @@
+{
+  "collections": {
+    "group_messages": {
+      "description": "Public group chat messages",
+      "fields": {
+        "text": "string",
+        "sender": "string",
+        "timestamp": "timestamp",
+        "userId": "string"
+      }
+    },
+    "ai_chats": {
+      "description": "Private AI chat messages",
+      "fields": {
+        "text": "string",
+        "role": "string",
+        "timestamp": "timestamp",
+        "userId": "string"
+      }
+    }
+  }
+}
